@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>测试</title>
+</head>
+<body>
+<style id="demo2"></style>
+<div id="demo"></div>
+<div id="buttons">
+    <button id="btnPause">暂停</button>
+    <button id="btnPlay">播放</button>
+    <button id="btnSlow">慢速</button>
+    <button id="btnNormal">中速</button>
+    <button id="btnFast">快速</button>
+</div>
+<style>*, :before, :after {
+  box-sizing: border-box;
+}
+
+#buttons {
+  z-index: 10;
+  flex-direction: column;
+  display: flex;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+#buttons > button {
+  margin-bottom: 10px;
+  padding: 4px 8px;
+}
+
+#demo2 {
+  display: none;
+}
+
+#demo {
+  height: 50vh;
+  width: 100%;
+  border: 1px solid red;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-y: auto;
+}
+
+#demo::-webkit-scrollbar {
+  display: none;
+}
+
+#html {
+  width: 100%;
+  height: 50%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+</style>
+<div id="html">
+    <div class="skin">
+        <div class="eye left"></div>
+        <div class="eye right"></div>
+        <div class="nose">
+            <div class="yuan"></div>
+        </div>
+        <div class="face left">
+        </div>
+        <div class="face right">
+        </div>
+        <div class="mouth">
+            <div class="up">
+                <div class="lip left"></div>
+                <div class="lip right"></div>
+            </div>
+            <div class="down">
+                <div class="yuan1">
+                    <div class="yuan2"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="/test.c860f2e8.js"></script>
+<script src="/test.0c79c421.js"></script></body>
+</html>
